@@ -1,0 +1,14 @@
+#Environment files
+ccenv/
+venv/
+.env/
+
+#Raw data files
+data/*.csv
+
+#Python cache files
+__pycache__/
+*.pyc
+
+#Jupyter Notebook checkpoints
+.ipynb_checkpoints/

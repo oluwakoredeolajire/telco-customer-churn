@@ -1,0 +1,18 @@
+# Core data
+pandas==2.3.3
+numpy==2.4.0
+
+# Visualization & EDA
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Machine learning
+scikit-learn==1.8.0
+scipy==1.16.3
+
+# Model persistence
+joblib==1.5.3
+
+# Jupyter
+notebook==7.5.1
+jupyterlab==4.5.1
