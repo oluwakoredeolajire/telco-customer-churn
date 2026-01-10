@@ -27,6 +27,5 @@ python experiments/run_experiment.py
 
 **Results are saved in results/:**
 - metrics.json → accuracy, confusion matrix, classification report
-- figures/ → feature importance plots and train/test distributions
-- churn_model.pkl → saved trained model
+- figures/ → confusion matrix and roc curve plots
 - label_encoders.pkl → saved label encoders
