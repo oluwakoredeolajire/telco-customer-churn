@@ -8,44 +8,17 @@ The dataset contains information about customers, including contract types, tenu
 
 -----
 
-## Project Structure
-telco-customer-churn/
-├── README.md
-├── requirements.txt
-├── results.md
-├── data/
-│   └── README.md
-├── src/
-│   ├── __init__.py
-│   ├── config.py
-│   ├── data_loader.py
-│   ├── preprocessing.py
-│   ├── features.py
-│   ├── model.py
-│   ├── train.py
-│   ├── evaluate.py
-│   └── utils.py
-├── experiments/
-│   ├── __init__.py
-│   ├── eda.ipynb
-│   └── run_experiment.py
-└── results/
-    ├── metrics.json
-    └── figures/
-
------
-
 ## Setup
 1. Clone the repository:
-    git clone https://github.com/oluwakoredeolajire/telco-customer-churn.git
-    cd telco-customer-churn
+    - git clone https://github.com/oluwakoredeolajire/telco-customer-churn.git
+    - cd telco-customer-churn
 
 2. Create a virtual environment and activate it:
-    python3 -m venv env
-    env\Scripts\activate [On Windows]
+    - python3 -m venv env
+    - env\Scripts\activate [On Windows]
 
 3. Install dependencies:
-    pip install -r requirements.txt
+    - pip install -r requirements.txt
 
 4. Place the dataset CSV in `data/`.
 
