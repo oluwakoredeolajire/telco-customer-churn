@@ -1,7 +1,7 @@
 # Telco Customer Churn Prediction
 
 ## Problem Statement
-Predicting customer churn is crucial for businesses to improve retention strategies. This project focuses on predicting which customers are most likely to churn in a telecommunications company.
+Customer churn is a significant challenge for businesses in the telecommunications industry, as retaining existing customers is often more cost-effective than acquiring new ones. High churn rates can lead to reduced revenue and increased marketing costs. The goal of this project is to build a machine learning model that accurately predicts whether a customer will churn (i.e., stop using the service) based on historical customer data.
 
 ## Dataset Description
 The dataset contains information about customers, including contract types, tenure, payment methods, and services used. The target variable is whether a customer has churned or not (`Churn`).
