@@ -22,10 +22,9 @@ python experiments/run_experiment.py
 **The script will:**
 - Load and preprocess the data.
 - Create features.
-- Train a Random Forest classifier.
-- Evaluate the model and save metrics.
+- Train models.
+- Evaluate the models and save metrics.
 
 **Results are saved in results/:**
 - metrics.json → accuracy, confusion matrix, classification report
 - figures/ → confusion matrix and roc curve plots
-- label_encoders.pkl → saved label encoders
