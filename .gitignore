@@ -12,3 +12,9 @@ __pycache__/
 
 #Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+#Model
+results/*.pkl
+
+#Plots and figures
+results/figures/*.png

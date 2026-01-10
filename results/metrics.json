@@ -1,0 +1,50 @@
+{
+    "Gradient_Boosting": {
+        "model_type": "Gradient_Boosting",
+        "accuracy": 0.808374733853797,
+        "confusion_matrix": [
+            [
+                950,
+                86
+            ],
+            [
+                184,
+                189
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.84      0.92      0.88      1036\n           1       0.69      0.51      0.58       373\n\n    accuracy                           0.81      1409\n   macro avg       0.76      0.71      0.73      1409\nweighted avg       0.80      0.81      0.80      1409\n",
+        "roc_auc": 0.8578415642758805
+    },
+    "Logistic_Regression": {
+        "model_type": "Logistic_Regression",
+        "accuracy": 0.7558552164655784,
+        "confusion_matrix": [
+            [
+                757,
+                279
+            ],
+            [
+                65,
+                308
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.92      0.73      0.81      1036\n           1       0.52      0.83      0.64       373\n\n    accuracy                           0.76      1409\n   macro avg       0.72      0.78      0.73      1409\nweighted avg       0.82      0.76      0.77      1409\n",
+        "roc_auc": 0.8595094040804497
+    },
+    "Random_Forest": {
+        "model_type": "Random_Forest",
+        "accuracy": 0.7913413768630234,
+        "confusion_matrix": [
+            [
+                958,
+                78
+            ],
+            [
+                216,
+                157
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.82      0.92      0.87      1036\n           1       0.67      0.42      0.52       373\n\n    accuracy                           0.79      1409\n   macro avg       0.74      0.67      0.69      1409\nweighted avg       0.78      0.79      0.77      1409\n",
+        "roc_auc": 0.8363873735857649
+    }
+}
